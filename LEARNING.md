@@ -12,6 +12,16 @@ Advantages of HTML
 Environment setup
 
 -Cod Editor: VS code
-Broeder: Google Chrome
+Browser: Google Chrome
 Verdion Control: Git and GitHub
+VS Code extensions: Live server, pretter code formatter.
+
+
+Basic structure of HTML
+-head, body
+Basic Tags, Styling, Debugging
+-tage? types to tages
+-attribute
+-element, content
+-Debugging
 
