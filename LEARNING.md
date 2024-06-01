@@ -24,4 +24,9 @@ Basic Tags, Styling, Debugging
 -attribute
 -element, content
 -Debugging
+-Comments
 
+Headings, paragraphs, Line__breaks, horizental-rulls
+Semantic HTML VS Non-semantic HTML
+-Semantic tag - header, footer, main, form, table,
+-Non Semantic tag - div, span
