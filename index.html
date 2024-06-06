@@ -3,21 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content ="sabuz hossen">
+    <meta name="keywords" content="protfoilo, html, sabuz hossen">
+    <meta name="description" content="Sabuz hossen is web Devloper">
     <title>My protfoilo</title>
+      <!-- /* font awasome cdn */ -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <!-- google font links  -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <style>
+      body{
+        background-color: bisque;
+        font-family: "Roboto", sans-serif;
+      }
+
+    </style>
 </head>
 <body>
-    <h1 style="background-color: red; color: white;">Wellcome to my protfolio</h1>
-     <!-- Section:  intro -->
-    <header>
-      <h1>Muhammud Sabuz hossen</h1>
-     <p> Now at time Learning parpus Web Devlopment, and i'm Student</p>
-     <hr />
-    </header>
-    <!-- Section:  about me -->
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="#about">About me</a>
+        </li> 
+         <li>
+          <a href="#skill">Skills</a>
+        </li>
+        <li>
+          <a href="#project">My project</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+<main>
+ 
+  <!-- Section:  intro -->
+ 
+   <h1>Muhammud Sabuz hossen</h1>
+  <p> Now at time Learning parpus Web Devlopment, and i'm Student</p>
+  <hr />
+ 
+ <!-- Section:  about me -->
+ <section>
+     <h2>About me</h2>
+   <p> <strong>Expercince:</strong> 1 year expercince in web devlopemnt</p>
+   <p> <strong>Education:</strong> SSC, HSC</p>
+ </section>
 
-     <!-- Section:  Skills -->
 
-     <!-- Section:  Contacts -->
+  <!-- Section:  Skills -->
+   <section>
+     <h1>Skills</h1>
+   <table border="1" cellpadding="5" cellspacing="0">
+    <tbody>
+      <tr>
+        <th>Technology</th>
+        <th>proficiency</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td rowspan="2">Expart</td>
+      </tr> 
+       <tr>
+        <td>CSS</td>
+      </tr>  
+      <tr>
+        <td>Javascript</td>
+        <td>Expart</td>
+      </tr>
+    </tbody>
+   </table>
+   <h1>Skill Progress</h1>
+   <div>
+    <label for="htmlprogress">HTML:</label>
+<progress id="htmlprogress"value="90" max="100">90%</progress>
+</div>
+
+
+<div>
+  <label for="cssprogress">CSS:</label>
+<progress id="cssprogress"value="80" max="100">80%</progress>
+</div>
+<div>
+  <label for="jsprogress">Javascript:</label>
+<progress id="jsprogress"value="75" max="100">75%</progress>
+</div>
+
+<div>
+  <h3>Expercince Lavle</h3>
+  <label for="expercinceLavle">Expercince:</label>
+  <meter id="expercince" min="0" max="10" value="1.5">5
+
+  </meter>
+</div>
+
+
+
+   </section>
+
+   <!-- section projects -->
+   <section>
+     <h2>projects</h2>
+     <ol>
+      <li> <a target="_blank" href=" https://github.com/sabuz-hossen">protfoilo Website</a></li>
+       <li>Blog webside</li>
+       <li>E-commerce webside</li>
+     </ol>
+   </section>
+
+
+  <!-- Section:  Contacts -->
+<form   action="https://formspree.io/f/xoqgorew"
+method="POST">
+  <h1>Contact Me</h1>
+  <div>
+      <label for="name">Name:</label>
+  <input type="name" id="name" placeholder="Name" required>
+  </div>
+ <div>
+    <label for="email">Email:</label>
+  <input type="email" id="email" placeholder="Email" required>
+ </div>
+ <div>
+  <label for="age">Age:</label>
+  <input type="number" id="age" name="age" min="18"/>
+ </div>
+ <div>
+  <label for="webside">Website:</label>
+  <input type="url" id="webside" name="webside"/>
+ </div>
+
+ <div>
+  <label for="subject">Subject:</label>
+  <select name="subject" id="subject">
+    <option value="Inquiry">Inquiry</option>
+    <option value="Feedback">Feedback</option>
+    <option value="job">Job Opportunity</option>
+  </select>
+ </div>
+ <div>
+  <label for="massage">Massage:</label>
+  <textarea name="massage" id="massage"></textarea>
+ </div>
+
+<div>
+
+  <button type="submit">Submit</button>
+  <button type="reset">clear</button>
+
+</form>
+ 
+</main>
+     <footer>
+      <p>Copyright reserved by &copy; sabuz2024</p>
+      <p>Devloper with &hearts;</p>
+      <a href="tel: 01306930913">Call me </a>
+      <a href="mdsabuzh486@gmail.com">Email</a>
+      <h3>Follow me</h3>
+      <ul>
+        <li>
+          <a href=""target="_blank">    <i class="fa-brands fa-facebook"></i></a>
+        </li>  
+        <li>
+          <a href=""target="_blank">    <i class="fa-brands fa-youtube"></i></a>
+        </li>
+        <li>
+          <a href=""target="_blank">    <i class="fa-brands fa-linkedin"></i></a>
+        </li>
+      </ul>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.8268552084346!2d88.91297533107318!3d23.358286658752426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff283904d85efd%3A0x6b3c8580c676c1b!2sMaheshpur%20Thana!5e0!3m2!1sen!2sbd!4v1717640584526!5m2!1sen!2sbd" width="300" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6UQyiVtd1VE?si=9w5zL3Mmlt062fHz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     </footer>
 
    
 </body>

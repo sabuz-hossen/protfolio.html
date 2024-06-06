@@ -30,3 +30,24 @@ Headings, paragraphs, Line__breaks, horizental-rulls
 Semantic HTML VS Non-semantic HTML
 -Semantic tag - header, footer, main, form, table,
 -Non Semantic tag - div, span
+
+Text formatting tags
+List
+-ordered list, unordered, definition, nested 
+Link and navigation
+-absolut link vs relative link 
+-a tag, attributes: href, target, title
+image
+Table
+Form
+Deploy
+
+## Intermeditat HTML
+
+-meta tag & SEO
+-Adding font-awasome icons and google font 
+-advance table
+-advance form 
+-form data send to your email
+-multimedia 
+-html5 element
