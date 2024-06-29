@@ -51,3 +51,51 @@ Deploy
 -form data send to your email
 -multimedia 
 -html5 element
+-deploy in netlify.com
+
+## Advanced HTML
+
+HTML learning best website 
+1. mnd wed doces
+2. w3School
+3. HTML dog
+
+-more advanced form
+-Datalist,fieldset, legend
+-Web accessibility
+ -use semantic tag
+ -use lang attribute
+ -use heading tags in order (h1-> h2-> h3)
+ -use alt attribute for image
+ -constrast ratio
+ -use menaingful link text
+ -label (for) + input (id)
+ -meta tag: desc, keywords
+-HTML5 API
+-HTML Templates and web components
+-sources for symbols, icons, emojis, colors
+-Learning resources
+
+### Basic CSS
+
+- introduction to css 
+- ways to add CSS
+- Selectors and combinators
+- CSS specifictiy
+- Typography
+- Box Model
+- Background properties
+- Basic layout - float, positioning
+- design a card
+- CSS3 Variables
+
+### intermediate CSS
+
+-- Background properties
+-- Basic layout - display property -inline, block, inline-block, float, positioning, flex, grid,
+--How to make a circle
+-- Responsiveness
+-- transition
+-- animation
+-- 
+
